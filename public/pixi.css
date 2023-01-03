@@ -1,0 +1,84 @@
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60 px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+  }
+  nav ul li:not(:last-child) a:hover,
+  nav ul li:not(:last-child) a:focus{
+      border-bottom: 2px solid white;
+  }
+  nav ul li.btn a{
+    color:white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 40px;
+  }
+  nav ul li.btn:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+  }
+
+  .hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  nav ul li.btn2 a{
+    color:white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 50px;
+    position:fixed;
+    top: 77%;
+    left: 42%;
+  }
+  nav ul li.btn2:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+  }
+  h1 {
+    margin: 50px;
+    position:fixed;
+    top: 42%;
+    left: 28%;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+  }
+
+  
